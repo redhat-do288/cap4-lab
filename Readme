@@ -1,0 +1,16 @@
+SETUP
+
+
+TASK
+project name build-app
+deploy app
+	app name->simple
+	repo https://github.com/redhat-do288/nodejs-helloworld.git
+	image stream -> (non specificata usa is nodej nel progetto openshift)
+	npm_config_registry=https://registry.npmjs
+deploy app con https://registry.npmjs.org/
+	
+	
+										
+
+
